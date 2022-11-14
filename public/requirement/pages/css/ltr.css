@@ -1,0 +1,84 @@
+header {
+    direction: ltr;
+}
+
+footer {
+    direction: ltr;
+}
+
+header nav .box-1 {
+    right: 0;
+}
+
+header nav .box-4 {
+
+    right: 0;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0.align-items-center {
+    margin-right: auto !important;
+}
+
+/* header nav ul li a {
+    margin-right: 42px;
+} */
+@media (max-width: 463.98px) {
+    header nav .box-1 {
+        right: -5rem !important;
+    }
+}
+
+@media (max-width: 430px) {
+    header nav .icons svg {
+        margin-right: 6px !important;
+    }
+}
+
+
+.dropdown-item {
+    text-align: end;
+}
+
+header nav .search-1 .box-5 input::placeholder {
+    transform: translateX(5px);
+}
+
+header nav .search-1 .box-5 .glass {
+    transform: translate(10px, -34px);
+}
+
+header nav .search-1 .box-5 {
+    right: 0rem;
+}
+
+header nav .search-1 .box-5 input.form-control {
+    padding: 0.6rem 0.9rem 0.6rem 1.9rem;
+}
+
+footer .image {
+    text-align: center;
+}
+
+@media (max-width: 463.98px) {
+    header nav .box-1 {
+        right: -20rem;
+    }
+
+    header nav .box-4 {
+        right: -17rem;
+    }
+
+    header nav .search-1 .box-5 {
+        right: -10rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200.98px) {
+    header nav .profile-1::after {
+        right: -22;
+    }
+}
+
+header nav .basket::after {
+    right: 25px;
+}
